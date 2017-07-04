@@ -1,4 +1,4 @@
-defmodule ExunitJsonFormatter.Mixfile do
+defmodule ExUnitJsonFormatter.Mixfile do
   use Mix.Project
 
   def project do
@@ -28,6 +28,6 @@ defmodule ExunitJsonFormatter.Mixfile do
   #
   # Type "mix help deps" for more examples and options
   defp deps do
-    []
+    [{:poison, "~> 3.1"}]
   end
 end

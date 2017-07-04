@@ -1,4 +1,4 @@
-# ExunitJsonFormatter
+# ExUnitJsonFormatter
 
 **TODO: Add description**
 
