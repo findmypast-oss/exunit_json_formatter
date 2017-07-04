@@ -25,6 +25,7 @@ defmodule ExUnitJsonFormatter.Mixfile do
   end
 
   defp deps do
-    [{:poison, "~> 3.1"}]
+    [{:poison, "~> 3.1"},
+     {:ex_doc, ">= 0.0.0", only: :dev}]
   end
 end
