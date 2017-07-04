@@ -1,6 +1,8 @@
 # ExUnitJsonFormatter
 
-**TODO: Add description**
+An ExUnit formatter that outputs a series of JSON objects.
+
+Inspired and designed to be compatible with mocha-json-streamier-reporter
 
 ## Installation
 
@@ -16,4 +18,3 @@ end
 Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
 and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
 be found at [https://hexdocs.pm/exunit_json_formatter](https://hexdocs.pm/exunit_json_formatter).
-
