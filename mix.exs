@@ -3,7 +3,7 @@ defmodule ExUnitJsonFormatter.Mixfile do
 
   def project do
     [app: :exunit_json_formatter,
-     version: "0.1.0",
+     version: "0.1.1",
      description: "ExUnit formatter that outputs a stream of JSON objects",
      package: package(),
      elixir: "~> 1.4",
@@ -25,7 +25,7 @@ defmodule ExUnitJsonFormatter.Mixfile do
   end
 
   defp deps do
-    [{:poison, "~> 3.1"},
+    [{:poison, ">= 2.0.0"},
      {:ex_doc, ">= 0.0.0", only: :dev}]
   end
 end
